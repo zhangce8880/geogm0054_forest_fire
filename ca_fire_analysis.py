@@ -69,6 +69,7 @@ def plot_fire_results(grid, area_trees, area_fire, time_lim = None):
 
 
     fig.subplots_adjust(wspace=0.25, bottom = 0.25)
+    plt.show()
 
     return fig
 
